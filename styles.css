@@ -86,7 +86,7 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   padding: 1em;
-  margin: 0 auto;
+  margin: 0 auto 1.5em auto;
   background-color: #ffffff;
 }
 
@@ -115,10 +115,6 @@ body {
   overflow: hidden;
 }
 
-/*.social-links ul li:hover {
-  background: rgba(255, 255, 255, 0.2);
-}*/
-
 .social-links ul li a {
   display: flex;
   align-items: center;
@@ -136,24 +132,3 @@ body {
   flex: 1;
   font-size: 0.9rem;
 }
-
-/* background colors
-.website {
-  background-color: #333;
-}
-.github {
-  background-color: #24292e;
-}
-.linkedin {
-  background-color: #0e76a8;
-}
-.instagram {
-  background-color: #fd5949;
-}
-.facebook {
-  background-color: #1877f2;
-}
-.twitter {
-  background-color: #1da1f2;
-}
-*/
