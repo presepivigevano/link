@@ -1,0 +1,159 @@
+/* =============== GLOBAL =============== */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+/* =============== BASIC =============== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 0.5em;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #de2531;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+footer {
+  margin: 1em 0;
+  text-align: center;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+/* =============== SCROLL BAR =============== */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #de2531;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #de2531;
+  border-radius: 10px;
+  border: 3px solid #de2531;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #de2531;
+}
+
+/*=============== LAYOUT ===============*/
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #444;
+}
+
+.container {
+  width: 90%;
+  max-width: 30rem;
+  margin: 2rem auto;
+}
+
+/*=============== HEADAR ===============*/
+.head-section {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.head-section .circleLogo {
+  width: 9rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.head-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.head-section p {
+  font-size: 1.2rem;
+}
+
+.bio {
+  margin-bottom: 1rem;
+}
+
+/*=============== SOCIAL LINKS ===============*/
+.social-links ul {
+  list-style: none;
+}
+
+.social-links ul li {
+  margin-bottom: 1rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/*.social-links ul li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}*/
+
+.social-links ul li a {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.social-links ul li a i {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.social-links ul li a span {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+/* background colors
+.website {
+  background-color: #333;
+}
+.github {
+  background-color: #24292e;
+}
+.linkedin {
+  background-color: #0e76a8;
+}
+.instagram {
+  background-color: #fd5949;
+}
+.facebook {
+  background-color: #1877f2;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+*/
